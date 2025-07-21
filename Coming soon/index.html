@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coming Soon - Galactic Odyssey</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a2e0f1f0b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Dark Mode Toggle -->
+  <button id="darkToggle" title="Toggle Dark Mode">🌙</button>
+
+  <!-- Background Video -->
+  <video autoplay muted loop id="bg-video">
+    <source src="https://cdn.coverr.co/videos/coverr-space-flight-2583/1080p.mp4" type="video/mp4">
+  </video>
+
+  <div class="container">
+    <div class="overlay">
+      <h1>🚀 Galactic Odyssey</h1>
+      <p>Embark on the most epic space journey. Launching Soon.</p>
+
+      <div class="countdown" id="countdown">
+        <div><span id="days">00</span><small>Days</small></div>
+        <div><span id="hours">00</span><small>Hours</small></div>
+        <div><span id="minutes">00</span><small>Minutes</small></div>
+        <div><span id="seconds">00</span><small>Seconds</small></div>
+      </div>
+
+      <form>
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Notify Me</button>
+      </form>
+
+      <!-- Social Media -->
+      <div class="social">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
